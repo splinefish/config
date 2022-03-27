@@ -1,0 +1,14 @@
+imap <C-J> <Esc>
+nmap <C-J> <Esc>
+vmap <C-J> <Esc>
+cmap <C-J> <Esc>
+
+nnoremap <silent> <Tab> :vsc Window.NextDocumentWindow<cr>
+" nnoremap <silent> <Tab> :vsc Window.NextSplitPane<cr>
+" nnoremap <silent> <Tab> :vsc Window.MovetoNextTabGroup<cr>
+nnoremap <silent> <S-Tab> :vsc View.SolutionExplorer<cr>
+
+xnoremap gc :vsc Edit.CommentSelection<cr>
+nnoremap gcc V:vsc Edit.CommentSelection<cr>
+
+set clipboard=unnamed
