@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "vim.vimrc.enable": true,
+    "vim.useSystemClipboard": true,
+    "telemetry.telemetryLevel": "off",
+    "editor.renderWhitespace": "all",
+    "editor.lineNumbers": "relative",
+    "editor.formatOnSave": true,
+    "python.formatting.provider": "black"
+}
